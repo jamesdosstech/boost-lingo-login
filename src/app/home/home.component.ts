@@ -30,9 +30,9 @@ import { Router, RouterLink } from '@angular/router';
     </nav>
     <section>
       <div class="card" style="width: 18rem;">
-        <img [src]="imageUrl" class="card-img-top" alt="...">
+        <img [src]="imageUrl" class="card-img-top" style="height: 200px;" alt="...">
         <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
           <button (click)="nextImage()" class="btn btn-primary">Next</button>
         </div>
       </div>
