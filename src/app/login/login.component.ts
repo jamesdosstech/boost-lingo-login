@@ -23,7 +23,7 @@ import { UserService } from '../service/user.service';
           <label class="form-label" for="email">Email</label>
           <input placeholder="email" class="form-control" formControlName="email" type="email" name="email" id="email">
           @if (loginForm.controls['email'].invalid && loginForm.controls['email'].touched) {
-            <div>
+            <div style="color: red;">
               Invalid Email
             </div>
           }
@@ -32,7 +32,7 @@ import { UserService } from '../service/user.service';
           <label class="form-label" for="password">Password</label>
           <input type="password" class="form-control" formControlName="password" placeholder="password">
           @if(loginForm.controls['password'].invalid && loginForm.controls['password'].touched) {
-            <div>
+            <div style="color: red;">
               Password is required
             </div>
           }
